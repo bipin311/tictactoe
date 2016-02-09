@@ -15,6 +15,7 @@
 		C1389CAD1C630DBD00352263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1389CAB1C630DBD00352263 /* LaunchScreen.storyboard */; };
 		C1389CB81C630DBD00352263 /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1389CB71C630DBD00352263 /* TicTacToeTests.m */; };
 		C1389CC31C630DBD00352263 /* TicTacToeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1389CC21C630DBD00352263 /* TicTacToeUITests.m */; };
+		E8024A5C1C686435001B801D /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = E8024A5B1C686435001B801D /* Board.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C1389CBE1C630DBD00352263 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1389CC21C630DBD00352263 /* TicTacToeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeUITests.m; sourceTree = "<group>"; };
 		C1389CC41C630DBD00352263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8024A5A1C686435001B801D /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		E8024A5B1C686435001B801D /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				C1389CA01C630DBD00352263 /* AppDelegate.h */,
 				C1389CA11C630DBD00352263 /* AppDelegate.m */,
+				E8024A5B1C686435001B801D /* Board.m */,
+				E8024A5A1C686435001B801D /* Board.h */,
 				C1389CA31C630DBD00352263 /* ViewController.h */,
 				C1389CA41C630DBD00352263 /* ViewController.m */,
 				C1389CA61C630DBD00352263 /* Main.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				C1389CA51C630DBD00352263 /* ViewController.m in Sources */,
 				C1389CA21C630DBD00352263 /* AppDelegate.m in Sources */,
+				E8024A5C1C686435001B801D /* Board.m in Sources */,
 				C1389C9F1C630DBD00352263 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				C1389CC91C630DBD00352263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1389CCA1C630DBD00352263 /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				C1389CCC1C630DBD00352263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1389CCD1C630DBD00352263 /* Build configuration list for PBXNativeTarget "TicTacToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				C1389CCF1C630DBD00352263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

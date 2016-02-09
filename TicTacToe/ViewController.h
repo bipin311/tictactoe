@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Board.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+@property (strong, nonatomic) IBOutlet UIButton *resultButton;
+@property (strong, nonatomic) NSMutableArray *buttons;
+@property (strong, nonatomic) Board *board;
+
+
+- (IBAction)btn:(id)sender;
+-(BOOL) getBestValue : (int *) x : (int *) y: (BOOL) turn;
+-(int) getScore ;
+
 
 @end
-
